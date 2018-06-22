@@ -10,40 +10,34 @@
   padding: 8rem 0 7rem;
   text-align: center;
 }
+
 .section-heading,
 .section-description {
   margin-bottom: 1.2rem;
 }
 
-/* Hero
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
-.phones {
-  position: relative;
-}
-.phone {
-  position: relative;
-  max-width: 80%;
-  margin: 3rem auto -12rem;
-}
-.phone + .phone {
-  display: none;
+.martial-arts-software a {
+  color: white;
 }
 
 /* Values
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .values {
-  background-image: url('../images/values-bg.jpg');
+  background-image: url('../images/emma-bg-opt.jpg');
   background-size: cover;
   color: #fff;
   padding-bottom: 5rem;
 }
+
 .value-multiplier {
   margin-bottom: .5rem;
   color: #11DFC7;
 }
+
 .value-heading {
   margin-bottom: .3rem;
 }
+
 .value-description {
   opacity: .8;
   font-weight: 300;
@@ -58,12 +52,17 @@
 /* Categories
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .categories {
-  background-image: url('../images/values-bg.jpg');
+  background-image: url('../images/emma-bg-opt.jpg');
   background-size: cover;
   color: #fff;
 }
+
 .categories .section-description { 
   margin-bottom: 4rem;
+}
+
+.category-image {
+  margin-bottom: 20px;
 }
 
 /* Bigger than 550 */
@@ -83,16 +82,8 @@
     max-height: 362px;
     z-index: 3;
   }
-  .phone + .phone {
-    top: -6rem;
-    display: block;
-    max-width: 73.8%;
-    right: 0;
-    z-index: 2;
-    max-height: 338px;
-  }
   .hero-heading {
-    font-size: 2.4rem;
+    font-size: 3.0rem;
   }
 }
 
@@ -102,7 +93,7 @@
     height: 190px;
   }
   .hero-heading {
-    font-size: 2.6rem;
+    font-size: 4.0rem;
   }
   .section {
     padding: 14rem 0 15rem;
@@ -138,7 +129,7 @@
     padding: 22rem 0;
   }
   .hero-heading {
-    font-size: 3.0rem;
+    font-size: 5.0rem;
   }
   .phone {
     top: -16rem;
